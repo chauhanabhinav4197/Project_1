@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding-top: 80px;
+}
+header .logo
+{
+    display: inline-block;
+    font-size: 27px;
+}
+header .logo .blue-dot
+{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
+}
+.container
+{
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 16px;
+}
+header .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+header{
+    height: 80px;
+    background-color: #FFF;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+header nav{
+    display: inline-block;
+    
+}
+header nav ul li{
+    display: inline-block;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header nav ul li a
+{
+    color: #3E3E3E;
+    font-family: Heebo;
+    font-size: 15px;
+    letter-spacing: 0.37px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+header nav ul li a:hover
+{
+    color:#3E50E5;
+}
+header nav ul li:last-of-type a{
+    margin-right: 0px;
+}
+section.hero
+{
+    position: relative;
+}
+section.hero img{
+    width: 100%;
+    height: auto;
+}
+.hero-content
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.hero-content .container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.hero-content h1{
+    max-width: 495px;
+    color: #FFF;
+    font-size: 50px;
+    letter-spacing: 1.25px;
+    line-height: 56px;
+    margin-bottom: 16px;
+}
+.hero-content p{
+    max-width: 518px;
+    color: #FFF;
+    font-family: "Heebo Light";
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+.hero-content button
+{
+    height: 50px;
+    width: 220px;
+    border-radius: 220px;
+    background-color: blue;
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    text-align: center;
+}
+section.best-seller h2{
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 0.85px;
+    line-height: 42px;
+    font-weight: normal;
+}
+section.best-seller hr{
+    border: none;
+    border-top: 5px solid #67F11D;
+    width: 66px;
+}
+section.best-seller .container
+{
+    display: flex;
+    justify-content: space-around;
+}
+section.best-seller .product-slider .product{
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 33%;
+    text-align: center;
+}
+section.news-letter
+{
+    max-width: 955px;
+    background-color: rgba(200,200,200,0.18);
+    text-align: center;
+    padding: 72px 0;
+    margin: 80px auto;
+}
+section.news-letter h3{
+    height: 39px;
+    width: auto;
+    color: #000;
+    font-family: Heebo;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 42px;
+    text-align: center;
+}
+section.news-letter p{
+    height: 29px;
+    width: auto;
+    color: #000;
+    font-family: Heebo;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+    text-align: center;
+}
+section.news-letter form{
+    display: flex;
+    justify-content: center;
+}
+section.news-letter form input{
+    height: 50px;
+    width: 326px;
+    height: 39.63px;
+    width: 303.44px;
+    color: #3E3E3E;
+    font-family: Heebo;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    box-sizing: border-box;
+    border-radius: 60px 0 0 60px;
+    padding-left: 22px;
+}
+section.news-letter form button{
+    height: 39.63px;
+    width: 145px;
+    color: #FFF;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-align: center;
+    background-color: #3E50E5;
+    border: 1px solid #3E50E5;
+    box-sizing: border-box;
+    border-radius: 0 60px 60px 0;
+
+}
+
+
+footer .bottom-nav{
+    padding: 60px 0;
+    background-color: #3E3E3E;
+}
+footer .bottom-nav .container
+{
+    max-width: 955px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .bottom-nav ul
+{
+    list-style: none;
+}
+
+footer .bottom-nav ul li a
+{
+    color: #e0e0e0;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+
+}
+footer .bottom-nav ul li.list-title
+{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #FFF;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+footer .copyright{
+    color: white;
+    background-color: #2b2b2b;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+}
